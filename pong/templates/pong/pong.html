@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ping Pong Sky</title>
+    <script src="https://pixijs.download/release/pixi.js"></script>
+    {% load static %}
+    <script src="{% static 'practice/javascript/pong.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'practice/css/pong.css' %}"/>
+</head>
+<body style="margin: 0; padding: 0">
+<header>
+    <h1>PingPongSky</h1>
+    <button id='gameFlowButton' onclick="onGameFlowButtonPressed()">Play</button>
+</header>
+<section>
+
+</section>
+
+<script>
+    setupGame();
+</script>
+</body>
+</html>
